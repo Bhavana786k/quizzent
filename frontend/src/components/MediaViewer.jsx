@@ -4,7 +4,7 @@ import { Image, Video, Music, FileText, Download } from 'lucide-react';
 export const MediaViewer = ({ mediaUrl, mediaType }) => {
   if (!mediaUrl) return null;
 
-  const fullUrl = mediaUrl.startsWith('http') ? mediaUrl : `http://localhost:8080${mediaUrl}`;
+  const fullUrl = mediaUrl.startsWith('http') ? mediaUrl : `http://localhost:8082${mediaUrl}`;
 
   return (
     <div style={{ margin: '1rem 0', padding: '0.75rem', background: '#f8fafc', borderRadius: 'var(--radius)', border: '1px solid var(--border)' }}>

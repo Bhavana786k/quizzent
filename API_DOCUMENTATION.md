@@ -1,6 +1,6 @@
 # API_DOCUMENTATION.md - Quizzent REST APIs
 
-Base URL: `http://localhost:8080/api`
+Base URL: `http://localhost:8082/api`
 
 ---
 

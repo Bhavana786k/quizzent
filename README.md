@@ -37,7 +37,7 @@ Built with **ReactJS (Vite)** on the frontend, **Spring Boot** on the backend, a
 cd backend
 ./mvnw spring-boot:run
 ```
-Backend will start on `http://localhost:8080`.
+Backend will start on `http://localhost:8082`.
 
 ### 2. Run React Frontend
 ```bash
